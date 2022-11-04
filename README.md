@@ -19,7 +19,7 @@ Nous expérimenterons et comparerons ces librairies au travers deux études de c
  3. Créer et afficher une carte à partir d'un texte
 
 
-Vous pouvez exécuter le notebook à distance en utilisant [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lmoncla/tutoriel-geoparsing/blob/main/Tutoriel-geoparsing.ipynb) ou [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lmoncla/tutoriel-geoparsing/main?filepath=Tutoriel-geoparsing.ipynb).
+Vous pouvez exécuter le notebook à distance en utilisant [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ludovicmoncla/tutoriel-geoparsing/blob/main/Tutoriel-geoparsing.ipynb) ou [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ludovicmoncla/tutoriel-geoparsing/main?filepath=Tutoriel-geoparsing.ipynb).
 Sinon, pour exécuter ce tutoriel depuis un environnement local sur votre ordinateur, vous pouvez suivre les instructions ci-dessous. 
 
 ## Installer conda

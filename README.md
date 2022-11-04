@@ -6,7 +6,7 @@ Ce tutoriel reprend ceux proposés pour l'atelier [Librairies Python et Services
 
 
 Dans ce tutoriel, nous montrons comment utiliser des librairies Python pour la reconnaissance des entités nommées (*Named Entity Recognition*) et pour la résolution de toponymes (*Geocoding*). 
-Pour cela, nous utiliserons les librairies ([spaCy](https://spacy.io), [Stanza](https://stanfordnlp.github.io/stanza/index.html)) et [Perdido](https://github.com/ludovicmoncla/perdido).
+Pour cela, nous utiliserons les librairies [spaCy](https://spacy.io), [Stanza](https://stanfordnlp.github.io/stanza/index.html) et [Perdido](https://github.com/ludovicmoncla/perdido).
 
 Nous expérimenterons et comparerons ces librairies au travers deux études de cas : le traitement d'articles encyclopédiques (corpus issu du projet [GEODE](https://geode-project.github.io)) et le traitement de descriptions de randonnées (corpus issu du projet [ANR CHOUCAS](http://choucas.ign.fr)).
 

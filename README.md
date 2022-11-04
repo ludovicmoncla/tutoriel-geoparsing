@@ -2,7 +2,7 @@
 # Tutoriel - Python Geoparsing 
 
 
-Le notebook reprend ceux proposés pour l'atelier [Librairies Python et Services Web pour la reconnaissance d’entités nommées et la résolution de toponymes](https://anf-tdm-2022.sciencesconf.org/resource/page/id/11) de la formation CNRS [ANF TDM 2022](https://anf-tdm-2022.sciencesconf.org) et pour le tutoriel [Natural Language Processing (NLP) for historical texts](https://github.com/ludovicmoncla/SunoikisisDC-Summer2022-Session9) de la formation [SunoikisisDC Summer 2022 Course](https://github.com/SunoikisisDC/SunoikisisDC-2021-2022/wiki/SunoikisisDC-Summer-2022-Session-9).
+Ce tutoriel reprend ceux proposés pour l'atelier [Librairies Python et Services Web pour la reconnaissance d’entités nommées et la résolution de toponymes](https://anf-tdm-2022.sciencesconf.org/resource/page/id/11) de la formation CNRS [ANF TDM 2022](https://anf-tdm-2022.sciencesconf.org) et pour la session [Natural Language Processing (NLP) for historical texts](https://github.com/ludovicmoncla/SunoikisisDC-Summer2022-Session9) de la formation [SunoikisisDC Summer 2022 Course](https://github.com/SunoikisisDC/SunoikisisDC-2021-2022/wiki/SunoikisisDC-Summer-2022-Session-9).
 
 
 Dans ce tutoriel, nous montrons comment utiliser des librairies Python pour la reconnaissance des entités nommées (*Named Entity Recognition*) et pour la résolution de toponymes (*Geocoding*). 

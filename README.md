@@ -43,29 +43,6 @@ git clone https://github.com/ludovicmoncla/tutoriel-geoparsing.git
 
 ### Configurer l'environnement avec toutes les dépendances nécessaires
 
-#### Méthode 1
-
-* Uilisateurs MacOS/Linux : Créer un nouvel environnement nommé `tutoriel-geoparsing-py39` avec toutes les dépendances nécessaire en utilisant le fichier de configuration `environment-osx-linux.yml` :
-
-```bash
-conda env create -f environment-osx-linux.yml
-```
-
-* Uilisateurs Windows : Créer un nouvel environnement nommé `tutoriel-geoparsing-py39` avec toutes les dépendances nécessaire en utilisant le fichier de configuration `environment-win64.yml` :
-
-```bash
-conda env create -f environment-win64.yml
-```
-
-* Activer l'environnement
-
-```bash
-conda activate tutoriel-geoparsing-py39
-```
-
-
-#### Méthode 2
-
 * Créer un nouvel environnement nommé `tutoriel-geoparsing-py39`
 
 ```bash

@@ -5,10 +5,23 @@
 Ce tutoriel reprend ceux proposés pour l'atelier [Librairies Python et Services Web pour la reconnaissance d’entités nommées et la résolution de toponymes](https://anf-tdm-2022.sciencesconf.org/resource/page/id/11) de la formation CNRS [ANF TDM 2022](https://anf-tdm-2022.sciencesconf.org) et pour la session [Natural Language Processing (NLP) for historical texts](https://github.com/ludovicmoncla/SunoikisisDC-Summer2022-Session9) de la formation [SunoikisisDC Summer 2022 Course](https://github.com/SunoikisisDC/SunoikisisDC-2021-2022/wiki/SunoikisisDC-Summer-2022-Session-9).
 
 
-Dans ce tutoriel, nous montrons comment utiliser des librairies Python pour la reconnaissance des entités nommées (*Named Entity Recognition*) et pour la résolution de toponymes (*Geocoding*). 
-Pour cela, nous utiliserons les librairies [spaCy](https://spacy.io), [Stanza](https://stanfordnlp.github.io/stanza/index.html) et [Perdido](https://github.com/ludovicmoncla/perdido).
+Dans ce tutoriel, nous allons apprendre plusieurs choses :
 
-Nous expérimenterons et comparerons ces librairies au travers deux études de cas : le traitement d'articles encyclopédiques (corpus issu du projet [GEODE](https://geode-project.github.io)) et le traitement de descriptions de randonnées (corpus issu du projet [ANR CHOUCAS](http://choucas.ign.fr)).
+- Charger des jeux de données :
+  - à partir de fichiers txt importés depuis le disque dur ;
+  - à partir de la librairie Python [Perdido](https://github.com/ludovicmoncla/perdido) dans un [Pandas dataframe](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) (articles encyclopédiques et descriptions de randonnées).
+- Manipuler et interroger un dataframe
+- Utiliser la librarie `Perdido` pour le geoparsing et le geocoding :
+  - afficher les entités nommées annotées et les annotations;
+  - cartographier les lieux geocodés ;
+  - illustrer la problématique de désambiguïsation des toponymes ;
+  - exporter les résultats dans différents formats (TEI, geojson, ...).
+- En annexe, pour ceux qui souhaitent aller plus loin, vous pourrez voir comment utiliser les librairies [Stanza](https://stanfordnlp.github.io/stanza/index.html), [spaCy](https://spacy.io) pour la reconnaissance d'entités nommées
+  - comparer les résultats de `Stanza`, `spaCy` et `Perdido` ;
+  - discuter les dimites des 3 outils pour la tâche de NER.
+
+
+Nous expérimenterons le geoparsing au travers deux études de cas : le traitement d'articles encyclopédiques (corpus issu du projet [GEODE](https://geode-project.github.io)) et le traitement de descriptions de randonnées (corpus issu du projet [ANR CHOUCAS](http://choucas.ign.fr)).
 
 
 
